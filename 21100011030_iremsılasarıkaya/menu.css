@@ -1,0 +1,78 @@
+* {
+    font-family: Satisfy, sans-serif;
+}
+
+
+body{
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-image: url('menu3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Sayfanın tamamını kaplamak için */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.7); 
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+h3{
+    font-family: Arial;
+    font-family: sans-serif;
+}
+
+button {
+
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-image: url('menu2.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.3);
+ 
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 2px;
+
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+    color: black;
+    text-align: center;
+
+    
+    border-radius: 55px;
+
+
+
+}
+
+.login-screen {
+        display: flex;
+        justify-content: space-between; /* İki ucu boşluklu (butonları iki yana yaslar) */
+        }
+
+
+.button{
+            cursor: pointer;
+            transition: transform 0.3s ease; 
+}
+.button{
+    width: 100%; /* İçeriğin genişliğini butonun genişliğine eşitle */
+    height: auto; /* Orantılı yükseklik ayarı */
+}
+
+        
+.button:hover {
+    transform: scale(1.5); /* 1.1 kat büyütme */
+}
+
